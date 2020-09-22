@@ -9,9 +9,12 @@
 
 @import "./components/buttons";
 @import "./components//composition";
+@import "./components/feature-box";
 
 @import "./layout/header";
 @import "./layout//grid";
+
+@import "./vendors/font-awesome/icon-font.css";
 
 @import "./pages/home";
 
