@@ -2,6 +2,7 @@ import React from 'react';
 import Header from '../components/layout/Header';
 import SectionAbout from '../components/sections/section-about';
 import SectionFeatures from '../components/sections/section-features';
+import SectionTours from '../components/sections/section-tours';
 
 function HomePage(props) {
     return (
@@ -9,6 +10,7 @@ function HomePage(props) {
             <Header />
             <SectionAbout />
             <SectionFeatures />
+            <SectionTours />
         </div>
     )
 }
