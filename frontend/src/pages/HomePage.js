@@ -5,6 +5,7 @@ import SectionFeatures from '../components/sections/section-features';
 import SectionTours from '../components/sections/section-tours';
 import SectionStories from '../components/sections/section-stories';
 import SectionBook from '../components/sections/section-book';
+import Footer from '../components/layout/Footer';
 
 function HomePage(props) {
     return (
@@ -15,6 +16,7 @@ function HomePage(props) {
             <SectionTours />
             <SectionStories />
             <SectionBook />
+            <Footer />
         </div>
     )
 }
