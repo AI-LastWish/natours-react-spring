@@ -6,10 +6,12 @@ import SectionTours from '../components/sections/section-tours';
 import SectionStories from '../components/sections/section-stories';
 import SectionBook from '../components/sections/section-book';
 import Footer from '../components/layout/Footer';
+import Navigation from '../components/layout/Navigation';
 
 function HomePage(props) {
     return (
         <div className="HomePage">
+            <Navigation />
             <Header />
             <SectionAbout />
             <SectionFeatures />
