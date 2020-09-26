@@ -42,7 +42,7 @@
         transition: all 0.6s;
     }
     &__list {
-        @include centerHorizontalVertical;
+        @include absCenter;
         list-style: none;
         text-align: center;
         width: 100%;
